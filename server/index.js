@@ -10,8 +10,11 @@ app.use(cookieParser());
 app.enable("trust proxy");
 dotenv.config();
 connectDatabase();
-app.use(cors({origin:'http://localhost:3000',credentials:true}));
-
+const allowedOrigins = ['http://localhost:3000', 'https://losting.vercel.app'];
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true,
+}));
 
 const user = require("./routes/userRoute.js");
 const item = require("./routes/itemRoute.js");
