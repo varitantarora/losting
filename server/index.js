@@ -7,9 +7,11 @@ const cors = require("cors");
 const app = express();
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({origin:'http://localhost:3000/',credentials:true}));
+app.enable("trust proxy");
 dotenv.config();
 connectDatabase();
+app.use(cors({origin:'http://localhost:3000',credentials:true}));
+
 
 const user = require("./routes/userRoute.js");
 const item = require("./routes/itemRoute.js");
