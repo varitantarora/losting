@@ -57,8 +57,7 @@ const AboutUsPage = () => {
       <hr></hr>
       {/* ... (other sections) */}
 
-      <section className="pt-2 pb-8">
-        {" "}
+      {/* <section className="pt-2 pb-8">
         <h2 className="text-left text-xl text-navy font-extrabold py-2">
           Meet the Developer
         </h2>
@@ -81,15 +80,13 @@ const AboutUsPage = () => {
             </p>
 
             <div className="mt-2">
-            <p className="text-gray-600">
+              <p className="text-gray-600">
                 <span className="font-semibold ">Email:</span>{" "}
                 varitanta@gmail.com
               </p>
               <p className="text-gray-600">
                 <span className="font-semibold">Phone:</span> 8059909343
               </p>
-
-              {/* Add other contact information as needed */}
               <div className="flex mt-2 text-3xl text-navy">
                 <a
                   href="https://twitter.com/varitant_arora"
@@ -127,7 +124,7 @@ const AboutUsPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

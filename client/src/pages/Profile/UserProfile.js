@@ -111,7 +111,7 @@ const UserProfile = () => {
       <h2 className="text-navy text-5xl text-center font-bold p-4">
         User Profile
       </h2>
-      <div className="mb-4 flex items-center p-8">
+      <div className="mb-4 md:flex items-center p-8">
         <img
           src={user.avatar?user.avatar.url:"https://via.placeholder.com/150"}
           alt="Profile"
