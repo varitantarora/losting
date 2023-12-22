@@ -52,7 +52,7 @@ const Login = () => {
             type="text"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
+            className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50 focus:bg-green-50"
           />
 
           <label className="block text-md font-semibold">Password</label>
@@ -60,7 +60,7 @@ const Login = () => {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full h-9 my-2 p-2 border font-medium rounded-lg mb-4 outline-none text-gray-700 bg-green-50"
+            className="w-full h-9 my-2 p-2 border font-medium rounded-lg mb-4 outline-none text-gray-700 bg-green-50 focus:bg-green-50"
           />
           <button
             type="submit"
