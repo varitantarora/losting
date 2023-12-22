@@ -52,7 +52,7 @@ const Login = () => {
             type="text"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+            className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
           />
 
           <label className="block text-md font-semibold">Password</label>
@@ -60,7 +60,7 @@ const Login = () => {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full h-9 my-2 p-2 border font-medium rounded-lg mb-4 outline-none text-gray-700 bg-blue-50"
+            className="w-full h-9 my-2 p-2 border font-medium rounded-lg mb-4 outline-none text-gray-700 bg-green-50"
           />
           <button
             type="submit"
@@ -70,7 +70,7 @@ const Login = () => {
           </button>
           <p className="text-center text-sm font-light mt-4">Don't have an account yet?</p>
           <Link to="/register"><button
-            className="w-full font-medium outline outline-green-600 outline-1 text-green-600 hover:outline-none hover:bg-green-600 hover:text-white p-2 mt-2 mb-6 rounded-lg"
+            className="w-full font-medium outline outline-navy outline-1 text-navy hover:outline-none hover:bg-navy hover:text-white p-2 mt-2 mb-6 rounded-lg"
           >
             Sign Up
           </button></Link>

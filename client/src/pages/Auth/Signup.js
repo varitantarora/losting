@@ -57,21 +57,21 @@ const Signup = () => {
           <label className="block text-md font-semibold">Name</label>
           <input
             type="text"
-            className="h-9 rounded-xl w-full my-2 p-2 border font-medium rounded mb-4 outline-none text-gray-700 bg-blue-50"
+            className="h-9 rounded-xl w-full my-2 p-2 border font-medium rounded mb-4 outline-none text-gray-700 bg-green-50"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
           <label className="block text-md font-semibold">Email</label>
           <input
             type="text"
-            className="h-9 rounded-xl w-full my-2 p-2 border font-medium rounded mb-4 outline-none text-gray-700 bg-blue-50"
+            className="h-9 rounded-xl w-full my-2 p-2 border font-medium rounded mb-4 outline-none text-gray-700 bg-green-50"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <label className="block text-md font-semibold">Password</label>
           <input
             type="password"
-            className="h-9 rounded-xl w-full my-2 p-2 border font-medium rounded mb-4 outline-none text-gray-700 bg-blue-50"
+            className="h-9 rounded-xl w-full my-2 p-2 border font-medium rounded mb-4 outline-none text-gray-700 bg-green-50"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
@@ -79,14 +79,14 @@ const Signup = () => {
 
           <input
             type="text"
-            className="h-9 rounded-xl w-full my-2 p-2 border font-medium rounded mb-4 outline-none text-gray-700 bg-blue-50"
+            className="h-9 rounded-xl w-full my-2 p-2 border font-medium rounded mb-4 outline-none text-gray-700 bg-green-50"
             value={contact}
             onChange={(e) => setContact(e.target.value)}
           />
           <label className="block text-md font-semibold">Avatar</label>
           <input
             type="file"
-            className="h-9 rounded-xl w-full my-2 p-2 text-sm border font-medium rounded mb-4 outline-none text-gray-700 bg-blue-50"
+            className="h-9 rounded-xl w-full my-2 p-2 text-sm border font-medium rounded mb-4 outline-none text-gray-700 bg-green-50"
             accept="image/*"
             onChange={(e) => setAvatar(e.target.files[0])}
           />
@@ -98,8 +98,8 @@ const Signup = () => {
           </button>
           <p className="text-center text-sm font-light mt-4">Already have an account?</p>
           <Link to="/login"><button
-            className="w-full font-medium outline outline-green-600 outline-1 text-green-600 hover:outline-none hover:bg-green-600 hover:text-white p-2 mt-2 mb-6 rounded-lg"
-          >
+            className="w-full font-medium outline outline-navy outline-1 text-navy hover:outline-none hover:bg-navy hover:text-white p-2 mt-2 mb-6 rounded-lg"
+            >
             Login
           </button></Link>
         </form>

@@ -6,9 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        navy: '#152C5B',
-        sky: '#138EFF',
-        back: "#F3F8FD"
+        // navy: '#152C5B',
+        // sky: '#138EFF',
+        navy:'#435334',
+        sky:'#7A9D54',
+        back: "#F6FBF4" 
       },
     },
     

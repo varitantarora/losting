@@ -29,7 +29,7 @@ const Modal = ({ creator, onClose }) => {
   }, []);
   return (
     <div className="fixed inset-0 bg-gray-700 bg-opacity-75 flex items-center justify-center">
-      <div className="bg-blue-50 p-6 rounded-lg">
+      <div className="bg-green-50 p-6 rounded-lg">
         <button
           className="font-bold py-2 px-3 bg-gray-300 hover:bg-gray-400 rounded float-right"
           onClick={onClose}

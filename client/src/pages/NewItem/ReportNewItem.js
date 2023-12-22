@@ -57,7 +57,7 @@ const ReportNewItem = () => {
           <div className="my-6">
             <label className="block text-md font-semibold">Type</label>
             <select
-              className="w-full p-2 border rounded bg-blue-50 outline-none text-gray-700 font-medium"
+              className="w-full p-2 border rounded bg-green-50 outline-none text-gray-700 font-medium"
               value={type}
               onChange={(e) => setType(e.target.value)}
             >
@@ -68,7 +68,7 @@ const ReportNewItem = () => {
           <div className="my-6">
             <label className="block text-md font-semibold">Tag</label>
             <input
-              className="w-full p-2 border rounded bg-blue-50 outline-none text-gray-700 font-medium"
+              className="w-full p-2 border rounded bg-green-50 outline-none text-gray-700 font-medium"
               type="text"
               value={tag}
               onChange={(e) => setTag(e.target.value)}
@@ -77,7 +77,7 @@ const ReportNewItem = () => {
           <div className="my-6">
             <label className="block text-md font-semibold">Description</label>
             <textarea
-              className="w-full p-2 border rounded bg-blue-50 outline-none text-gray-700 font-medium"
+              className="w-full p-2 border rounded bg-green-50 outline-none text-gray-700 font-medium"
               value={description}
               onChange={(e) => setDescription(e.target.value)}
             />
@@ -87,7 +87,7 @@ const ReportNewItem = () => {
               Last Seen Location
             </label>
             <input
-              className="w-full p-2 border rounded bg-blue-50 outline-none text-gray-700 font-medium"
+              className="w-full p-2 border rounded bg-green-50 outline-none text-gray-700 font-medium"
               type="text"
               value={lastSeenLocation}
               onChange={(e) => setLastSeenLocation(e.target.value)}
@@ -96,7 +96,7 @@ const ReportNewItem = () => {
           <div className="my-6">
             <label className="block text-md font-semibold">Date and Time</label>
             <input
-              className="w-full p-2 border rounded bg-blue-50 outline-none text-gray-700 font-medium"
+              className="w-full p-2 border rounded bg-green-50 outline-none text-gray-700 font-medium"
               type="datetime-local"
               value={dateTime}
               onChange={(e) => setDateTime(e.target.value)}
@@ -105,7 +105,7 @@ const ReportNewItem = () => {
           <div className="my-6">
             <label className="block text-md font-semibold">Image</label>
             <input
-              className="w-full p-2 border rounded bg-blue-50 outline-none text-gray-700 font-medium"
+              className="w-full p-2 border rounded bg-green-50 outline-none text-gray-700 font-medium"
               type="file"
               name="image"
               accept="image/*"
@@ -113,7 +113,7 @@ const ReportNewItem = () => {
             />
           </div>
           <button
-            className="my-4 w-full bg-blue-500 text-white p-2 rounded shadow-2xl box-shadow-red-600"
+            className="my-4 w-full bg-sky hover:bg-navy text-white p-2 rounded shadow-2xl box-shadow-red-600"
             type="submit"
           >
             Submit

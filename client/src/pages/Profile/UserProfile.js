@@ -164,7 +164,7 @@ const UserProfile = () => {
                 onChange={(e) =>
                   setUpdatedUser({ ...updatedUser, name: e.target.value })
                 }
-                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
               />
               <label className="font-semibold" htmlFor="email">
                 Email
@@ -176,7 +176,7 @@ const UserProfile = () => {
                 onChange={(e) =>
                   setUpdatedUser({ ...updatedUser, email: e.target.value })
                 }
-                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
               />
               <label className="font-semibold" htmlFor="contact">
                 Contact
@@ -188,7 +188,7 @@ const UserProfile = () => {
                 onChange={(e) =>
                   setUpdatedUser({ ...updatedUser, contact: e.target.value })
                 }
-                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
               />
               <button
                 type="submit"
@@ -232,7 +232,7 @@ const UserProfile = () => {
                     oldPassword: e.target.value,
                   })
                 }
-                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
               />
               <label className="font-semibold" htmlFor="newPassword">New Password</label>
               <input
@@ -245,7 +245,7 @@ const UserProfile = () => {
                     newPassword: e.target.value,
                   })
                 }
-                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
               />
               <label className="font-semibold" htmlFor="confirmPassword">Confirm Password</label>
               <input
@@ -258,7 +258,7 @@ const UserProfile = () => {
                     confirmPassword: e.target.value,
                   })
                 }
-                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+                className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
               />
               <button
                 type="submit"

@@ -71,7 +71,7 @@ const Item = () => {
             <select
               value={type}
               onChange={(e) => setType(e.target.value)}
-              className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+              className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
             >
               <option value="lost">Lost</option>
               <option value="found">Found</option>
@@ -82,14 +82,14 @@ const Item = () => {
               type="text"
               value={tag}
               onChange={(e) => setTag(e.target.value)}
-              className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+              className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
             />
 
             <label className="font-semibold">Description</label>
             <textarea
               value={description}
               onChange={(e) => setDescription(e.target.value)}
-              className="w-full rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+              className="w-full rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
             />
 
             <label className="font-semibold">Last Seen Location</label>
@@ -97,7 +97,7 @@ const Item = () => {
               type="text"
               value={lastSeenLocation}
               onChange={(e) => setLastSeenLocation(e.target.value)}
-              className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+              className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
             />
 
             <label className="font-semibold">Date and Time</label>
@@ -105,7 +105,7 @@ const Item = () => {
               type="datetime-local"
               value={dateTime}
               onChange={(e) => setDateTime(e.target.value)}
-              className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+              className="w-full h-9 rounded-lg my-2 p-2 border font-medium mb-4 outline-none text-gray-700 bg-green-50"
             />
 
             <label className="font-semibold">Image</label>
@@ -113,7 +113,7 @@ const Item = () => {
               type="file"
               accept="image/*"
               onChange={(e) => setImage(e.target.files[0])}
-              className="w-full h-9 rounded-lg my-2 p-2 border text-sm font-medium mb-4 outline-none text-gray-700 bg-blue-50"
+              className="w-full h-9 rounded-lg my-2 p-2 border text-sm font-medium mb-4 outline-none text-gray-700 bg-green-50"
             />
 
             <button
