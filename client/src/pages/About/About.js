@@ -55,9 +55,8 @@ const AboutUsPage = () => {
       </div>
       {showHowItWorks && <HowItWorks />}
       <hr></hr>
-      {/* ... (other sections) */}
 
-      {/* <section className="pt-2 pb-8">
+      <section className="pt-2 pb-8">
         <h2 className="text-left text-xl text-navy font-extrabold py-2">
           Meet the Developer
         </h2>
@@ -124,7 +123,7 @@ const AboutUsPage = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 };
