@@ -66,7 +66,7 @@ const AboutUsPage = () => {
             alt="Profile"
             className="rounded-full m-4 md:mr-4 md:mb-0 h-48 w-48"
           />
-          <div className="p-4 ">
+          {/* <div className="p-4 ">
             <h3 className="text-xl font-semibold text-navy">Varitant Arora</h3>
             <p className="text-gray-600">
               Computer Engineering student at JC Bose University, YMCA,
@@ -121,7 +121,7 @@ const AboutUsPage = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

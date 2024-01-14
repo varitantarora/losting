@@ -13,5 +13,4 @@ router
   .delete(isAuthenticatedUser, deleteItem);
 router.route("/items/me/lost").get(isAuthenticatedUser,getMyLostItems);
 router.route("/items/me/found").get(isAuthenticatedUser,getMyFoundItems);
-
 module.exports = router;
