@@ -56,7 +56,7 @@ const AboutUsPage = () => {
       {showHowItWorks && <HowItWorks />}
       <hr></hr>
 
-      <section className="pt-2 pb-8">
+      {/* <section className="pt-2 pb-8">
         <h2 className="text-left text-xl text-navy font-extrabold py-2">
           Meet the Developer
         </h2>
@@ -66,7 +66,7 @@ const AboutUsPage = () => {
             alt="Profile"
             className="rounded-full m-4 md:mr-4 md:mb-0 h-48 w-48"
           />
-          {/* <div className="p-4 ">
+          <div className="p-4 ">
             <h3 className="text-xl font-semibold text-navy">Varitant Arora</h3>
             <p className="text-gray-600">
               Computer Engineering student at JC Bose University, YMCA,
@@ -121,9 +121,9 @@ const AboutUsPage = () => {
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
